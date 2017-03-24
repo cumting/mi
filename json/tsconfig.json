@@ -1,0 +1,78 @@
+{
+  "focusImg": [
+    {"src": "resource/img/1.jpg", "productId": 12},
+    {"src": "resource/img/2.jpg", "productId": 1},
+    {"src": "resource/img/3.jpg", "productId": 5},
+    {"src": "resource/img/4.jpg", "productId": 2},
+    {"src": "resource/img/5.jpg", "productId": 10}
+  ],
+  "cpic": [
+    {"src": "resource/img/index/c1.jpg"},
+    {"src": "resource/img/index/c2.jpg"},
+    {"src": "resource/img/index/c3.jpg"}
+    
+  ],
+  "dp": [
+   
+    {"imgName": "d2", "productId": 1,"name":"红米Note 4","detail":"4GB+64GB，全金属一体化机身","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d3", "productId": 1,"name":"小米电视3s 48英寸","detail":"原装液晶屏，金属机身","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d4", "productId": 1,"name":"小米笔记本","detail":"更轻更薄，像杂志一样随身携带","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d5", "productId": 1,"name":"小米移动电源2","detail":"双向快充，高密度锂聚合物电芯","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d6", "productId": 1,"name":"小米手环2","detail":"OLED 显示屏幕，升级计步算法","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d7", "productId": 1,"name":"米家 LED 智能台灯","detail":"无可视频闪，亮度色温无级调节","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d8", "productId": 1,"name":"米家iHealth血压计","detail":"爸妈上手就会用的智能血压计","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"},
+    {"imgName": "d9", "productId": 1,"name":"小米路由器3","detail":"更快更强，不止四天线","price":"2299元起","comment1":"已收到，手机还没来，看着套子等手机","comment2":"来自1234用户"}
+    
+  ],
+
+  "mxdp": [
+    {"imgName": 1, "productId": 1,"name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"imgName": 2, "productId": 1,"name":"红米Note 4","detail":"4GB+64GB，全金属一体化机身","price":"2299元起"},
+    {"imgName": 3, "productId": 1,"name":"小米电视3s 48英寸","detail":"原装液晶屏，金属机身","price":"2299元起"},
+    {"imgName": 4, "productId": 1,"name":"小米笔记本","detail":"更轻更薄，像杂志一样随身携带","price":"2299元起"},
+    {"imgName": 5, "productId": 1,"name":"小米移动电源2","detail":"双向快充，高密度锂聚合物电芯","price":"2299元起"},
+    {"imgName": 6, "productId": 1,"name":"小米手环2","detail":"OLED 显示屏幕，升级计步算法","price":"2299元起"},
+    {"imgName": 7, "productId": 1,"name":"米家 LED 智能台灯","detail":"无可视频闪，亮度色温无级调节","price":"2299元起"},
+    {"imgName": 8, "productId": 1,"name":"米家iHealth血压计","detail":"爸妈上手就会用的智能血压计","price":"2299元起"},
+    {"imgName": 9, "productId": 1,"name":"小米路由器3","detail":"更快更强，不止四天线","price":"2299元起"},
+    {"imgName": 10, "productId": 1,"name":"小米活塞耳机 清新版","detail":"铝合金音腔，第三代平衡阻尼系统","price":"2299元起"}
+  ],
+
+"znyj": [
+    
+    {"src": "resource/img/index/z2.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"src": "resource/img/index/z3.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"src": "resource/img/index/z4.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"src": "resource/img/index/z5.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"src": "resource/img/index/z6.jpg","name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"src": "resource/img/index/z7.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+   {"src": "resource/img/index/z8.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"},
+    {"src": "resource/img/index/z9.jpg", "name":"小米5s Plus","detail":"5.7英寸大屏双摄手机，拍照黑科技","price":"2299元起"}
+  ],
+
+  "wntj": [
+    {"imgName": "w1"}, {"imgName": "w2"}, {"imgName": "w3"}, {"imgName": "w4"}, {"imgName": "w5"},
+    {"imgName": "w6"}, {"imgName": "w7"}, {"imgName": "w8"}, {"imgName": "w9"}, {"imgName": "w10"},
+    {"imgName": "w11"}, {"imgName": "w12"}, {"imgName": "w13"}, {"imgName": "w14"}, {"imgName": "w15"},
+    {"imgName": "w16"}, {"imgName": "w17"}, {"imgName": "w18"}, {"imgName": "w19"}, {"imgName": "w20"}
+  ],
+  "filterTypes": [
+    {"typeId": 1, "name": "分类"},
+    {"typeId": 2, "name": "机型"},
+    {"typeId": 3, "name": "品牌"}
+  ],
+  "filterContents": [
+    {"Id": 1, "text": "线材", "typeId": 1},
+    {"Id": 2, "text": "保护套", "typeId": 1},
+    {"Id": 3, "text": "贴膜", "typeId": 1},
+    {"Id": 4, "text": "小米手机5", "typeId": 2},
+    {"Id": 5, "text": "小米手机4S", "typeId": 2},
+    {"Id": 6, "text": "小米平板2", "typeId": 2},
+    {"Id": 7, "text": "小米手机4c", "typeId": 2},
+    {"Id": 8, "text": "小米", "typeId": 3},
+    {"Id": 9, "text": "第三方品牌", "typeId": 3}
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

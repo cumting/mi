@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="home_content clearfix">
+        <div class="content_left fl">
+            <ul-box ul-items="ulItemsHeShe" children-content="ulItemsContent" children-div-class="children"></ul-box>
+        </div>
+        <div class="rightFocusImg fl">
+            <focus-img img-items="imgItems"></focus-img>
+        </div>
+    </div>
+ <div class="cornav">
+        <ul ng-repeat="item in downNav">
+            <li> <svg class="icon" aria-hidden="true">
+                        <use xlink:href="{{item.name}}"></use>
+                    </svg> </li>
+                    <li>
+                        {{item.word}}
+                    </li>
+        </ul>
+
+
+
+    </div>
+    <div class="c_pic" ng-repeat="item in cpic">
+    
+        <div><img src="{{item.src}}"></div>
+    </ul>
+        
+    </div>
+
+
+    
+    <div class="home_mxdp">
+        <focus-img title="小米明星单品"  img-items="mxdp" template=" multiple"></focus-img>
+    </div>
+
+
+<div class="home_znyj">
+<div class="title">智能硬件<div class="zn_right">查看全部 <span> <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jiantou-copy-copy-copy"></use>
+                    </svg></span>         </div></div>
+<div class="first"><img src="resource/img/index/z1.jpg"></div>
+    <ul ng-repeat="item in znyj">
+    
+        <li class=""><img  src="{{item.src}}"></li>
+        
+            
+       <div> {{item.name}} </div>
+               <div class="st">{{item.detail}}</div>
+               <div class="ed">{{item.price}}</div>
+       
+    </ul>
+
+
+</div>
+
+
+<div class="home_dp">
+    <every  title="搭配" kind1="耳机音箱" kind2='电源' kind3='电池存储卡' img-Items='dp' pic1="d1" pic2='d10'>22222222222</every>
+</div>
+<div class="home_dp">
+    <every  title="配件" kind1="保护套" kind2='贴膜' kind3='其他配件' img-Items='dp' pic1="d1" pic2='d10'>22222222222</every>
+</div>
+<div class="home_dp">
+    <every  title="搭配" kind1="耳机音箱" kind2='电源' kind3='电池存储卡' img-Items='dp' pic1="d1" pic2='d10'>22222222222</every>
+</div>
+    <div class="home_wntj">
+        <focus-img title="为您推荐" img-items="wntj" template="multiple"></focus-img>
+    </div>
+   
+   
+  
+</div>

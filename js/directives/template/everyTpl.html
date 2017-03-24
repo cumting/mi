@@ -1,0 +1,40 @@
+<div class="every">
+
+	<div class="title">{{title}}
+<div class="hot">
+	<span>热门</span>
+	<span>{{kind1}}</span>
+	<span>{{kind2}}</span>
+	<span>{{kind3}}</span>
+	<!-- <span>{{every.s4}}</span>	 -->
+	</div>
+
+	</div>
+	
+	<div class="every_detail">
+	<ul class="big">
+	<li ><img src="resource/img/index/{{pic1}}.jpg"></li>
+	<li><img src="resource/img/index/{{pic2}}.jpg"></li>
+	</ul>
+	<div class="detail">
+		<ul ng-mouseenter="show = true" ng-mouseleave="show = false" class="items" ng-repeat="item in imgItems">
+			<li><img src="resource/img/index/{{item.imgName}}.jpg"></li>
+			 <div> {{item.name}} </div>
+			 <div class="st">{{item.price}}</div>
+               <div class="ed">{{item.detail}}</div>
+               <div class="comment" ng-show="show">
+			<div>{{item.comment1}}</div>
+			<div>{{item.comment2}}</div>
+</div>
+		</ul>
+		<!-- <div><img src="resource/img/index/{{last_pic}}.jpg"></div> -->
+		<div class="more">
+			<div>浏览更多</div>
+			 <div>{{last_word}}</div>
+			 <div><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jiantou-copy-copy-copy"></use>
+                    </svg></div>
+		</div>
+		</div>
+	</div>
+</div>

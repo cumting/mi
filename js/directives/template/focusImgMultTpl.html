@@ -1,0 +1,20 @@
+<div class="xm-plain-box" >
+    <div class="box-hd">
+        <h1>{{title}}</h1>
+        <div class="more"  >
+           <!-- 为您推荐系列 -->
+            <button ng-click="changeImg(-1)"  ng-disabled="imgIndex<=0"><span ng-class="{'disabled-right':imgIndex<=0}"></span></button>
+            <button ng-click="changeImg(1)"  ng-disabled="imgIndex>=imgTotalPage"><span ng-class="{'disabled-left':imgIndex>=imgTotalPage}"></span></button>
+        </div>
+    </div>
+    <div class="box-bd" ng-init=timer() ng-init=timer1()>
+        <ul id="focusImg">
+            <li ng-repeat="item in imgItems" id="focusLi">
+                <a ui-sref="error404"><img ng-src="resource/img/index/{{item.imgName}}.png" alt=""></a>
+               <div> {{item.name}} </div>
+               <div>{{item.detail}}</div>
+               <div>{{item.price}}</div>
+            </li>
+        </ul>
+    </div>
+</div>

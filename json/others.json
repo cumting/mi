@@ -1,0 +1,16 @@
+{
+   "o1":
+   [
+{"navId":1,"name":"#icon-xuangoushouji","word":"选购手机"},
+
+{"navId":2,"name":"#icon-libao","word":"企业团购"},
+{"navId":3,"name":"#icon-yiyuan","word":"一元活动"},
+{"navId":4,"name":"#icon-shoujiqia","word":"小米移动"},
+{"navId":5,"name":"#icon-yijiuhuanxin","word":"以旧换新"},
+{"navId":6,"name":"#icon-chongzhi","word":"话费充值"}
+
+   ],
+     "":
+   [
+      {}]
+}
